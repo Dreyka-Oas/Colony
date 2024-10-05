@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Apache License version 2.0"
+
+[[mods]]
+modId="colony"
+version="0.0.6"
+displayName="Colony"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+credits="Oas Work Production"
+authors="Dreyka Oas"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.colony]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.65,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.colony]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

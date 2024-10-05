@@ -1,0 +1,166 @@
+{
+  "mod_elements": [
+    {
+      "name": "Stacky",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stacky",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/colony/item/StackyItem.java",
+          "src/main/resources/assets/colony/models/item/stacky.json"
+        ]
+      },
+      "path": "~/Stacky"
+    },
+    {
+      "name": "StackyGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stacky_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/colony/world/inventory/StackyGUIMenu.java",
+          "src/main/java/oas/work/colony/client/gui/StackyGUIScreen.java"
+        ]
+      },
+      "path": "~/Stacky/GUI"
+    },
+    {
+      "name": "StackyRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stacky_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/colony/procedures/StackyRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Stacky"
+    },
+    {
+      "name": "CreateFolder",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "create_folder",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/colony/procedures/CreateFolderProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ImageLoader",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "image_loader",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/colony/ImageLoader.java"
+        ]
+      },
+      "path": "~/Stacky/GUI/System"
+    },
+    {
+      "name": "LoadingAnimation",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "loading_animation",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/colony/LoadingAnimation.java"
+        ]
+      },
+      "path": "~/Stacky/GUI/System"
+    },
+    {
+      "name": "CircleButton",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "circle_button",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/colony/CircleButton.java"
+        ]
+      },
+      "path": "~/Stacky/GUI/System"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.colony.stacky": "Stacky",
+      "item.collony.stacky": "Stacky"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Stacky",
+        "children": [
+          {
+            "name": "GUI",
+            "children": [
+              {
+                "name": "System",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "colony",
+    "modName": "Colony",
+    "version": "0.0.6",
+    "author": "Dreyka Oas",
+    "websiteURL": "https://mcreator.net",
+    "license": "Apache License version 2.0",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Oas Work Production",
+    "modElementsPackage": "oas.work.colony"
+  },
+  "mcreatorVersion": 202400340615
+}

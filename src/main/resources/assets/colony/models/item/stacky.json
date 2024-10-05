@@ -1,0 +1,7 @@
+{
+  "parent": "colony:custom/stacky",
+  "textures": {
+    "0": "colony:block/stacky",
+    "particle": "colony:item/stacky"
+  }
+}
