@@ -12,11 +12,11 @@ darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
 prioritizeChunkUpdates:0
-fullscreen:true
+fullscreen:false
 gamma:0.5
 graphicsMode:0
 guiScale:3
-maxFps:260
+maxFps:60
 mipmapLevels:0
 narrator:0
 particles:1
@@ -121,7 +121,7 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-soundCategory_master:1.0
+soundCategory_master:0.0
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
