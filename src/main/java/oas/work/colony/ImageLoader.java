@@ -23,7 +23,7 @@ public class ImageLoader {
                             try {
                                 BufferedImage image = ImageIO.read(logoFile);
                                 if (image != null) {
-                                    images.add(resizeImage(image, 96, 96));
+                                    images.add(resizeImage(image, 80, 80));
                                 }
                             } catch (IOException e) {
                                 System.err.println("Erreur lors de la lecture de l'image : " + logoFile.getAbsolutePath());
