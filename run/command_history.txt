@@ -1,0 +1,4 @@
+/time set day
+/weather clear
+/weather rain
+/effect give Dev minecraft:speed infinite 150
