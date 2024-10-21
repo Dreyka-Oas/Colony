@@ -8,8 +8,8 @@
       "registry_name": "stacky",
       "metadata": {
         "files": [
-          "src/main/java/oas/work/colony/item/StackyItem.java",
-          "src/main/resources/assets/colony/models/item/stacky.json"
+          "src/main/resources/assets/colony/models/item/stacky.json",
+          "src/main/java/oas/work/colony/item/StackyItem.java"
         ]
       },
       "path": "~/Stacky"
@@ -162,5 +162,5 @@
     "credits": "Oas Work Production",
     "modElementsPackage": "oas.work.colony"
   },
-  "mcreatorVersion": 202400340615
+  "mcreatorVersion": 202400342716
 }
